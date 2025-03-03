@@ -392,7 +392,7 @@ def apply_rotary_emb(x: torch.Tensor, freqs_cis: torch.Tensor) -> torch.Tensor:
 
 class MLA(nn.Module):
     """
-    Multi-Headed Attention Layer (MLA).
+    Multi-Headed latent Attention Layer (MLA).
 
     Attributes:
         dim (int): Dimensionality of the input features.
